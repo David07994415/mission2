@@ -1,0 +1,126 @@
+.section3_h3_content{
+    font-size: 32px;
+    margin-bottom: 80px;
+}
+.sponsor_card_logo_frame{
+    padding:0px 118px;
+    // img{
+    //     max-width: 100%;
+    // }
+    overflow-x:scroll;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.sponsor_card_firm_frame{
+    margin-bottom: 160px;
+    // img{
+    //     max-width: 100%;
+    // }
+    overflow-x:scroll;
+    &::-webkit-scrollbar {
+        display: none;
+      }
+}
+.rel_position{
+    position: relative;
+    margin-bottom: 20px;
+}
+// .gradient_R{
+.rel_position::before{
+    content:"";
+    position: absolute;
+    z-index: 2;
+    left:0px;
+    top:0px;
+    width:192px;
+    height:40px ;
+    background:linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.967585) 21.38%, rgba(0, 0, 0, 0.879348) 35.34%, rgba(0, 0, 0, 0.7488) 44.56%, rgba(0, 0, 0, 0.589452) 51.76%, rgba(0, 0, 0, 0.414815) 59.63%, rgba(0, 0, 0, 0.2384) 70.88%, rgba(0, 0, 0, 0.0737185) 88.21%, rgba(0, 0, 0, 0) 100%);
+}
+//.gradient_L{
+.rel_position::after{
+    content:"";
+    position: absolute;
+    z-index: 2;
+    right:0px;
+    //left:1104px;
+    top:0px;
+    width:192px;
+    height:40px ;
+    background:linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.967585) 21.38%, rgba(0, 0, 0, 0.879348) 35.34%, rgba(0, 0, 0, 0.7488) 44.56%, rgba(0, 0, 0, 0.589452) 51.76%, rgba(0, 0, 0, 0.414815) 59.63%, rgba(0, 0, 0, 0.2384) 70.88%, rgba(0, 0, 0, 0.0737185) 88.21%, rgba(0, 0, 0, 0) 100%);
+    transform: rotate(-180deg);
+}
+.sponsor_list_img_frame{
+    width: 160px;
+    margin:0px 10px;
+    img{
+        height: 40px;
+    }
+}
+// .section3_card_comment_frame{
+//     margin:0 200px;
+// }
+.section3_list_comment_frame{
+    max-width:416px;
+    padding: 40px 40px;
+    background: rgba(255, 255, 255, 0.08);
+}
+.section3_star_icon_list span{
+    font-size: 12px;
+}
+.section3_card_p_content{
+    max-width:336px;
+    font-size: 16px;
+    flex-grow: 1;
+    margin:20px 0px;
+}
+.section3_card_people_frame img{
+    width:48px;
+    margin-right: 16px;
+}
+.section3_card_people{
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+.section3_card_company{
+    font-size: 14px;
+}
+
+
+
+
+@media(max-width:376px){
+    .section3_list_comment_frame{
+        width:80%;
+    }
+    .section3_h3_content{
+        font-size: 20px;
+        margin-bottom: 24px;
+    }
+    .sponsor_card_firm_frame{
+        margin-bottom: 48px;
+    }
+}
+
+.swiper{
+    margin-bottom:160px;
+    padding-bottom: 24px;
+}
+.swiper-pagination.swiper-pagination-bullets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0px;
+}
+  
+.swiper-pagination-bullet {
+    background-color: #525252;
+    opacity:1;
+}
+  
+.swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    background-color: #ffffff;
+}
+  

@@ -1,0 +1,150 @@
+.footer_service_frame{
+    margin-bottom: 160px;
+    flex-wrap: wrap;
+    h2{
+        font-size: 32px;
+        width:30%;
+    }
+    .start_use_frame{
+        width:65%;
+        gap:16px;
+    }
+}
+.qa-list{
+    gap:16px;
+}
+.qa-item {
+    padding: 20px 40px;
+    border: 1px solid gray;
+    border-radius: 16px;
+    text-decoration: none;
+    display: block;
+    color: inherit;    
+}
+.qa-item.active {
+    border:1px solid #ffffff;
+}
+.qa-item:hover {
+    border-color: #ffffff;
+}
+.d-flex {
+    display: flex;
+}
+
+.d-none {
+    display: none;
+  }
+  
+//   .d-block {
+//     display: none;
+//   }
+
+.collapse-content{
+    margin-left: 20px;
+    h3{
+        font-size: 20px;
+        margin-bottom: 8px;
+    }
+    p{
+        font-size: 16px;
+    }
+}
+.collapse-content p.show {
+    display: inline;
+}
+
+// .start_use_p_content{
+//     font-size: 20px;
+// }
+
+// .start_use_frame span{
+//     font-size:15px;
+//     padding-left:16px;
+// }
+.footer_hyperlink_frame{
+    border-top: 1px solid #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    padding:80px 0px;
+    a{
+        font-size: 80px;
+        text-decoration: none;
+        color: #FFFFFF
+    }
+    img{
+    max-width: 246px;
+    }
+}
+.infor_link_frame{
+    padding:32px 0px;
+    flex-wrap: wrap;
+    a{
+        text-decoration: none;
+        margin-left:auto;
+    }
+}
+.infor_link_brand_list{
+    li{
+        font-size: 16px;
+    }
+}
+.mgR80{
+    margin-right: 100px;
+}
+.mgR100{
+    margin-right: 80px;
+}
+.mgR20{
+    margin-right: 20px;
+}
+.mgL20{
+    margin-left: 20px;
+}
+
+.infor_link_back_list{
+    .back_to_top{
+        font-size: 16px;
+        text-decoration: none;
+        color: #FFFFFF;
+        margin-right: 16px;
+    }
+    span{
+        font-size: 10px;
+        color: #FFFFFF;
+    }
+}
+
+@media(max-width:376px){
+    .footer_service_frame{
+    h2{
+        font-size: 20px;
+        width:100%;
+        margin-bottom: 24px;
+    }
+    .start_use_frame{
+        width: 100%;
+        gap:16px;
+    }
+    }
+    .footer_hyperlink_frame{
+        padding:40px 0px;
+        flex-direction: column;
+        a{
+            font-size: 48px;
+            text-decoration: none;
+            color: #FFFFFF
+        }
+        img{
+        width: 65%;
+        }
+    }
+    .footer_hyperlink_p_frame{
+        order:2;
+        margin-top: 40px;
+    }
+    // .infor_link_frame_wrap{
+    //     flex-wrap:wrap;
+    // }
+    .infor_link_brand_list{
+        order:2;
+    }
+}

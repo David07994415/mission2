@@ -1,0 +1,119 @@
+// .header_frame{
+//     max-width:1296px;
+//     margin:0px auto;
+// }
+.header_topline_frame{
+    margin-bottom: 40px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.header_topline_logo_frame{
+    max-width: 246px;
+    padding:20px 0px;
+    img{
+        max-width: 246px;
+    }
+}
+.header_topline_menu_content{
+    padding-left:20px;
+    a{
+        font-size:16px;
+        text-decoration: none; 
+        color:#FFFFFF; 
+        display:block;
+        padding:20px 0px;
+    }
+}
+.navbar-btn{
+    color: #ffffff;
+    background-color: transparent;
+    display: none;
+    span{
+        font-size:18px;
+    }
+}
+.navbar-collapse{
+    display: none;
+    font-size:80px;
+    ul{
+        margin: 0 auto;
+    }
+    a{
+        margin-bottom: 8px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+}
+
+.header_h2_slogan_content{
+    font-size:120px;
+}
+.header_getstart_content{
+    font-size: 20px;
+    margin:40px 0px;
+    padding:18px 38px;
+    display:inline-block;
+}
+@keyframes movingTop{
+    30% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(0%);
+    } 
+    100% {
+        transform: translateY(-120%);
+    }
+}
+.header_motion_frame{
+    margin-top: 60px;
+    margin-bottom: 160px;
+    overflow: hidden;
+    img{
+        transform: translateY(100%);
+        max-width: 180px;
+    }
+    .grass1{
+        animation: 4s ease-in-out infinite 2s movingTop;
+    }
+    .grass2{
+        animation: 4s ease-in-out infinite 1.5s movingTop;
+    }
+    .grass3{
+         animation: 4s ease-in-out infinite 1s movingTop;
+    }
+}
+
+@media (max-width: 376px) {
+    .header_topline_logo_frame{
+        width: 38%;
+        padding: 28px 0px;
+        img{
+            max-width: 100%;
+        }
+    }
+    .navbar-btn {
+        display: contents;
+    }  
+    .header_topline_menu_frame {
+        display: none;
+    }
+    .navbar-collapse{
+        margin-bottom: 320px;
+    }
+    .navbar-collapse.show{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .header_h2_slogan_content{
+        font-size:48px;
+    }
+    .header_motion_frame {
+        justify-content: center;
+        margin-top: 160px;
+        margin-bottom: 120px;
+        img{
+         max-width: 33%;
+        }
+    }
+}

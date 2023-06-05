@@ -1,0 +1,235 @@
+.section4_frame_bgwhite{
+    background: #FFFFFF;
+    max-width: 1920px;
+    margin:0 auto;
+    margin-bottom: 80px;
+    padding:80px 0px;
+}
+// .section4_frame{
+
+// }
+.section4_h2_content{
+    font-size: 80px;
+    padding:80px 0px;
+    margin:0 auto;
+}
+.section4_search_bar{
+    width: 100%;
+    padding: 20px 44px;
+    background: #F2F2F2;
+    margin:0 auto;
+    span{
+        font-size:18px;
+        color:#919191;
+    }
+    p{
+        font-size:16px;
+        margin:0px 16px;
+        color:#919191;
+    }
+}
+.section4_select_bar{
+    margin:24px auto 40px auto;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+}
+.select_icon_frame{
+    padding:20px 40px;
+    border: 1px solid #F2F2F2;
+    p{
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    span{
+        font-size:10px;
+    }
+}
+.tag_id_frame{
+    // margin: 0 218px;
+    margin-right: auto;
+    margin-left: auto;
+    li{
+        font-size: 16px;
+        margin: 0px 4px;
+        padding: 8px 16px;
+    }
+    .bggray{
+        background: #F2F2F2;
+    }
+}
+.ording_frame{
+    padding:20px 40px;
+    border: 1px solid #F2F2F2;
+    p{
+        font-size: 16px;
+        margin-right: 15px;
+    }
+    span{
+        font-size:10px;
+    }
+}
+.dropdown-btn {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #F2F2F2;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 32px;
+    padding-bottom: 20px;
+    border-radius: 16px;
+  }
+  
+  .dropdown-btn:hover {
+    border-color: #000000;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    right:10px;
+    top:40px;
+    display: none;
+    margin-top: 4px;
+    box-shadow:2px 2px 2px 1px rgba(0, 0, 0, 0.2); ;
+    padding: 10px 0;
+    border-radius: 16px;
+    a{
+        font-size: 16px; 
+        text-decoration: none;
+    }
+  }
+  
+  .dropdown-menu a {
+    padding: 4px 20px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: gray;
+  }
+  
+  .dropdown-menu.show {
+    display: block;
+  }
+
+
+
+
+.page_select_frame{
+    width: 100%;
+    // margin:0 auto;
+    a{
+        font-size:14px;
+        padding:17px 17px;
+        margin: 0px 2px;
+        text-decoration: none;
+    }
+    a:hover,span:hover{
+        background:#020202;
+        color:#FFFFFF;
+        border-radius:16px;
+    }
+    span{
+        font-size:8px;
+    }
+}
+.section4_AItool_card_frame{
+    flex-wrap: wrap;
+    max-width:1296px;
+}
+.AItool_list_frame{
+    max-width:416px;
+    margin-bottom: 24px;
+}
+.AItool_list_pic_frame{
+    max-width:416px;
+    // height: 312px;
+    overflow:hidden;
+    border-radius:16px 16px 0px 0px;
+}
+.pic_img{
+    max-width: 100%;
+    display:block;
+    transition: all 1s ease-in-out 0s;
+}
+.pic_img:hover{
+    transform: scale(1.2,1.2);
+}
+.content_L2_frame{
+    max-width:416px;
+    padding: 20px 32px;
+    flex-grow:1;
+}
+.content_L2_H3{
+    max-width: 352px;
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+.content_L2_P{
+    max-width: 352px;
+    // height: 42px;
+    font-size: 14px;
+}
+.content_L3_frame{
+    max-width:416px;
+    /* height:64px; */
+    padding: 20px 32px;
+}
+.content_L3_P1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+.content_L3_P2{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.content_L4_frame{
+    max-width:416px;
+    /* height: 64px; */
+    padding: 20px 32px;
+}
+.content_L4_P1{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.content_L4_A{
+    // display:block;
+    text-decoration:none;
+}
+
+@media(max-width:376px){
+    .section4_frame_bgwhite{
+        border-radius: 20px;
+        padding:0 12px;
+    }
+    .section4_h2_content{
+        font-size: 32px;
+        text-align: center;
+        padding: 80px 12px 16px 12px;
+    }
+    .section4_search_bar{
+        margin:16px 0px;
+    }
+    .tag_id_frame{
+        order:2;
+        overflow-x: scroll;
+    }
+    .tag_id_frame::-webkit-scrollbar {
+        display: none;
+      }
+    .section4_select_bar{
+        margin:16px 0px 48px 0px;
+        justify-content: flex-start;
+    }
+    .ording_frame{
+        margin-left:auto;
+    }
+    .page_select_frame{
+        margin-bottom: 80px;
+    }
+}
+
+
